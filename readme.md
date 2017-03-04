@@ -9,7 +9,7 @@ This simple addon will let you add the following to your bbPress forums:
 
 All you need to do is activate the plugin and it will do the job. it does not come with a GUI for settings in case you were confused, but extending its features is quite easy.
 
-** Change advert limit below topic from 1 to more **
+**Change advert limit below topic from 1 to more**
 
 ```php
 add_filter('wabbp_parse_topic_adverts_parse_query', function($args){
@@ -18,7 +18,7 @@ add_filter('wabbp_parse_topic_adverts_parse_query', function($args){
 	return $args;
 });```
 
-** Disable the bbPress profile tab **
+**Disable the bbPress profile tab**
 
 ```php
 add_filter('wpadvbbp', function($args){
@@ -27,7 +27,7 @@ add_filter('wpadvbbp', function($args){
 	return $args;
 });```
 
-** Adjust the link to portfolio **
+**Adjust the link to portfolio**
 
 ```php
 add_filter('wabbp_forum_reply_portfolio_link', function($link, $user_id){
@@ -36,7 +36,7 @@ add_filter('wabbp_forum_reply_portfolio_link', function($link, $user_id){
 }, 10, 2);
 ```
 
-** Change the "Portfolio (%d)" link text **
+**Change the "Portfolio (%d)" link text**
 
 ```php
 add_filter('wpadvbbp_menu_item_text', function() {
