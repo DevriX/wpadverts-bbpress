@@ -174,7 +174,7 @@ function wabbp_parse_topic_adverts_parse($topic_id, $user_id) {
         'author' => $user_id,
         'post_type' => 'advert', 
         'post_status' => 'publish',
-        'posts_per_page' => 1, 
+        'posts_per_page' => 1,
         'orderby'   => 'rand'
     )));
 
