@@ -16,7 +16,8 @@ add_filter('wabbp_parse_topic_adverts_parse_query', function($args){
 	$args['posts_per_page'] = 5; // changed from 1 to 5
 
 	return $args;
-});```
+});
+```
 
 **Disable the bbPress profile tab**
 
@@ -25,7 +26,8 @@ add_filter('wpadvbbp', function($args){
 	unset($args['profile-tab']);
 
 	return $args;
-});```
+});
+```
 
 **Adjust the link to portfolio**
 
