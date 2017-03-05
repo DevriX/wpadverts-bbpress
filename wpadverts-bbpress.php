@@ -22,7 +22,7 @@ function wpadvbbp() {
 }
 
 if ( !class_exists('bbPressProfileTabs') ) {
-    require ( WABBP_DIR . 'bbPress-Profile-Tabs/bbPressProfileTabs.php' );
+    require ( WABBP_DIR . 'lib/bbPress-Profile-Tabs/bbPressProfileTabs.php' );
 }
 
 add_action('plugins_loaded', 'wabbp_bbpress_profile_tab');
