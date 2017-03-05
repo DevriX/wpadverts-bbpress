@@ -32,7 +32,7 @@ add_filter('wpadvbbp', function($args){
 **Adjust the link to portfolio**
 
 ```php
-add_filter('wabbp_forum_reply_portfolio_link', function($link, $user_id){
+add_filter('wabbp_link_to_bbp_tab', function($link, $user_id){
 	// point it out to example.com/samuel/adverts/
 	return home_url( get_userdata($user_id)->user_nicename . '/portfolio/' );
 }, 10, 2);
